@@ -47,6 +47,14 @@ if (document.getElementById("page1Identifier")) {
       textBlock.classList.toggle("active")
       contentBlock.classList.toggle("active")
       readMoreButton.classList.toggle("active")
+
+      if (textBlock.classList.contains("active")) {
+        // Если есть, меняем надпись кнопки
+        readMoreButton.textContent = "Read less"
+      } else {
+        // Если нет, возвращаем исходную надпись кнопки
+        readMoreButton.textContent = "Read more"
+      }
     })
   })
 }
