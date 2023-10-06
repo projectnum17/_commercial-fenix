@@ -1,0 +1,23 @@
+.page-project__content-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+}
+.page-project__content {
+  margin-bottom: 100px;
+}
+
+.page-project__content a:last-child {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  padding: 20px 0;
+  border-radius: 50px;
+  text-align: center;
+
+  border: 1px solid #dee3eb;
+  color: #000;
+}

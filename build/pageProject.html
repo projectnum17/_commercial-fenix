@@ -48,9 +48,17 @@
   <body>
     <header class="header-fixed" id="main-header">
   <div class="container">
-    <div class="main-into__header header-container">
+    <div
+      id="header-white"
+      class="main-into__header header-container header-white"
+    >
       <a href="/">
-        <img src="./img/icons/blueLogo.svg" alt="Fenix Repower" />
+        <img
+          id="default-logo"
+          src="./img/icons/whiteLogo.svg"
+          alt="Fenix Repower"
+        />
+        <img id="new-logo" src="./img/icons/blueLogo.svg" alt="Fenix Repower" />
       </a>
 
       <ul>
@@ -75,13 +83,26 @@
         </li>
       </ul>
 
-      <div class="header-btn">
+      <div class="header-btn header-btn__white">
         <a href="#!">Contact us</a>
       </div>
 
       <button id="open-menu">
         <p>Menu</p>
         <svg
+          id="default-burger"
+          width="20"
+          height="20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 16v-2h18v2H1zm0-5V9h18v2H1zm0-5V4h18v2H1z"
+            fill="#224479"
+          />
+        </svg>
+        <svg
+          id="new-burger"
           width="20"
           height="20"
           viewBox="0 0 20 20"
@@ -142,265 +163,84 @@
 
 
 
-    <main id="page2Identifier">
-      <section class="services-intro">
+    <main id="page5Identifier">
+      <section
+  class="page-project__intro"
+  style="background-image: url(./img/pageProject/pageProjectIntro.jpg)"
+>
   <div class="container">
-    <div class="services-intro__content">
-      <h2>Services</h2>
-
+    <div class="page-project__intro-content">
+      <h2>
+        Accomplished <br />
+        jobs
+      </h2>
       <p>
-        We have a simple and intent focussed in-house management framework that
-        we use to aid and guide our work. Either when we develop our own
-        projects, step into hands-on roles in the client’s team or when we take
-        on running a project for the client.
+        The Fenix Repower team has, amongst many smaller assignments experienced
+        the following together.
       </p>
-    </div>
-    <div class="services-intro__content-photo">
-      <img src="./img/servicesArticle/introThumb.jpg" alt="" />
-
-      <img src="./../../../img/icons/blueLogoFrame.svg" alt="" />
-    </div>
-
-    <!-- accordion  start-->
-    <div class="accordion">
-      <div class="item-at">
-        <div class="title-at">
-          <h3>Developer for hire​</h3>
-
-          <svg
-            width="44"
-            height="44"
-            viewBox="0 0 44 44"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="transparent"
-          >
-            <rect
-              x="43.5"
-              y="0.5"
-              width="43"
-              height="43"
-              rx="21.5"
-              transform="rotate(90 43.5 0.5)"
-              stroke="#DEE3EB"
-            />
-            <path
-              d="M21.6464 28.3536C21.8417 28.5488 22.1583 28.5488 22.3536 28.3536L25.5355 25.1716C25.7308 24.9763 25.7308 24.6597 25.5355 24.4645C25.3403 24.2692 25.0237 24.2692 24.8284 24.4645L22 27.2929L19.1716 24.4645C18.9763 24.2692 18.6597 24.2692 18.4645 24.4645C18.2692 24.6597 18.2692 24.9763 18.4645 25.1716L21.6464 28.3536ZM21.5 16L21.5 28L22.5 28L22.5 16L21.5 16Z"
-              fill="#224479"
-            />
-          </svg>
-        </div>
-        <div class="tab-at">
-          <h4 class="accordion-text">
-            Develop a prospect or build a project on behalf of the client
-          </h4>
-          <h5>Develop a prospect or build a project on behalf of the client</h5>
-          <h5>Run a project, manage an asset ​</h5>
-          <ul>
-            <li>
-              Be the start-up team while the permanent team is being recruited
-              or time is right to commit to the permanent team​
-            </li>
-
-            <li>Establish a country-specific development company</li>
-
-            <li>Country entry risk review</li>
-          </ul>
-
-          <a href="#!"> View Portfolio </a>
-        </div>
-      </div>
-
-      <div class="item-at">
-        <div class="title-at">
-          <h3>Management for hire​</h3>
-
-          <svg
-            width="44"
-            height="44"
-            viewBox="0 0 44 44"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="transparent"
-          >
-            <rect
-              x="43.5"
-              y="0.5"
-              width="43"
-              height="43"
-              rx="21.5"
-              transform="rotate(90 43.5 0.5)"
-              stroke="#DEE3EB"
-            />
-            <path
-              d="M21.6464 28.3536C21.8417 28.5488 22.1583 28.5488 22.3536 28.3536L25.5355 25.1716C25.7308 24.9763 25.7308 24.6597 25.5355 24.4645C25.3403 24.2692 25.0237 24.2692 24.8284 24.4645L22 27.2929L19.1716 24.4645C18.9763 24.2692 18.6597 24.2692 18.4645 24.4645C18.2692 24.6597 18.2692 24.9763 18.4645 25.1716L21.6464 28.3536ZM21.5 16L21.5 28L22.5 28L22.5 16L21.5 16Z"
-              fill="#224479"
-            />
-          </svg>
-        </div>
-        <div class="tab-at">
-          <h4 class="accordion-text">
-            Develop a prospect or build a project on behalf of the client
-          </h4>
-          <h5>Develop a prospect or build a project on behalf of the client</h5>
-          <h5>Run a project, manage an asset ​</h5>
-          <ul>
-            <li>
-              Be the start-up team while the permanent team is being recruited
-              or time is right to commit to the permanent team​
-            </li>
-
-            <li>Establish a country-specific development company</li>
-
-            <li>Country entry risk review</li>
-          </ul>
-
-          <a href="#!"> View Portfolio </a>
-        </div>
-      </div>
-
-      <div class="item-at">
-        <div class="title-at">
-          <h3>Finance management</h3>
-
-          <svg
-            width="44"
-            height="44"
-            viewBox="0 0 44 44"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="transparent"
-          >
-            <rect
-              x="43.5"
-              y="0.5"
-              width="43"
-              height="43"
-              rx="21.5"
-              transform="rotate(90 43.5 0.5)"
-              stroke="#DEE3EB"
-            />
-            <path
-              d="M21.6464 28.3536C21.8417 28.5488 22.1583 28.5488 22.3536 28.3536L25.5355 25.1716C25.7308 24.9763 25.7308 24.6597 25.5355 24.4645C25.3403 24.2692 25.0237 24.2692 24.8284 24.4645L22 27.2929L19.1716 24.4645C18.9763 24.2692 18.6597 24.2692 18.4645 24.4645C18.2692 24.6597 18.2692 24.9763 18.4645 25.1716L21.6464 28.3536ZM21.5 16L21.5 28L22.5 28L22.5 16L21.5 16Z"
-              fill="#224479"
-            />
-          </svg>
-        </div>
-        <div class="tab-at">
-          <h4 class="accordion-text">
-            Develop a prospect or build a project on behalf of the client
-          </h4>
-          <h5>Develop a prospect or build a project on behalf of the client</h5>
-          <h5>Run a project, manage an asset ​</h5>
-          <ul>
-            <li>
-              Be the start-up team while the permanent team is being recruited
-              or time is right to commit to the permanent team​
-            </li>
-
-            <li>Establish a country-specific development company</li>
-
-            <li>Country entry risk review</li>
-          </ul>
-
-          <a href="#!"> View Portfolio </a>
-        </div>
-      </div>
-
-      <div class="item-at">
-        <div class="title-at">
-          <h3>Document control and administration</h3>
-
-          <svg
-            width="44"
-            height="44"
-            viewBox="0 0 44 44"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="transparent"
-          >
-            <rect
-              x="43.5"
-              y="0.5"
-              width="43"
-              height="43"
-              rx="21.5"
-              transform="rotate(90 43.5 0.5)"
-              stroke="#DEE3EB"
-            />
-            <path
-              d="M21.6464 28.3536C21.8417 28.5488 22.1583 28.5488 22.3536 28.3536L25.5355 25.1716C25.7308 24.9763 25.7308 24.6597 25.5355 24.4645C25.3403 24.2692 25.0237 24.2692 24.8284 24.4645L22 27.2929L19.1716 24.4645C18.9763 24.2692 18.6597 24.2692 18.4645 24.4645C18.2692 24.6597 18.2692 24.9763 18.4645 25.1716L21.6464 28.3536ZM21.5 16L21.5 28L22.5 28L22.5 16L21.5 16Z"
-              fill="#224479"
-            />
-          </svg>
-        </div>
-        <div class="tab-at">
-          <h4 class="accordion-text">
-            Develop a prospect or build a project on behalf of the client
-          </h4>
-          <h5>Develop a prospect or build a project on behalf of the client</h5>
-          <h5>Run a project, manage an asset ​</h5>
-          <ul>
-            <li>
-              Be the start-up team while the permanent team is being recruited
-              or time is right to commit to the permanent team​
-            </li>
-
-            <li>Establish a country-specific development company</li>
-
-            <li>Country entry risk review</li>
-          </ul>
-
-          <a href="#!"> View Portfolio </a>
-        </div>
-      </div>
-
-      <div class="item-at">
-        <div class="title-at">
-          <h3>Contract management</h3>
-
-          <svg
-            width="44"
-            height="44"
-            viewBox="0 0 44 44"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="transparent"
-          >
-            <rect
-              x="43.5"
-              y="0.5"
-              width="43"
-              height="43"
-              rx="21.5"
-              transform="rotate(90 43.5 0.5)"
-              stroke="#DEE3EB"
-            />
-            <path
-              d="M21.6464 28.3536C21.8417 28.5488 22.1583 28.5488 22.3536 28.3536L25.5355 25.1716C25.7308 24.9763 25.7308 24.6597 25.5355 24.4645C25.3403 24.2692 25.0237 24.2692 24.8284 24.4645L22 27.2929L19.1716 24.4645C18.9763 24.2692 18.6597 24.2692 18.4645 24.4645C18.2692 24.6597 18.2692 24.9763 18.4645 25.1716L21.6464 28.3536ZM21.5 16L21.5 28L22.5 28L22.5 16L21.5 16Z"
-              fill="#224479"
-            />
-          </svg>
-        </div>
-        <div class="tab-at">
-          <h4 class="accordion-text">
-            Develop a prospect or build a project on behalf of the client
-          </h4>
-          <h5>Develop a prospect or build a project on behalf of the client</h5>
-          <h5>Run a project, manage an asset ​</h5>
-          <ul>
-            <li>
-              Be the start-up team while the permanent team is being recruited
-              or time is right to commit to the permanent team​
-            </li>
-
-            <li>Establish a country-specific development company</li>
-
-            <li>Country entry risk review</li>
-          </ul>
-
-          <a href="#!"> View Portfolio </a>
-        </div>
-      </div>
     </div>
   </div>
 </section>
- 
+
+      <section class="page-project__content">
+  <div class="container">
+    <div class="page-project__content-grid">
+      <div class="jobs-slider__slide">
+        <div class="slide-img">
+          <img src="./img/mainArticle/jobsSlide-1.jpg" alt="" />
+        </div>
+        <div class="slide-content">
+          <div class="slide-content__info">
+            <h5>Onshore wind project Syvash</h5>
+            <p>Syvash, Ukraine</p>
+          </div>
+          <a class="blue__hover" href="#!"> Visit project </a>
+        </div>
+      </div>
+
+      <div class="jobs-slider__slide">
+        <div class="slide-img">
+          <img src="./img/mainArticle/jobsSlide-2.jpg" alt="" />
+        </div>
+        <div class="slide-content">
+          <div class="slide-content__info">
+            <h5>Onshore wind project Zophiah</h5>
+            <p>Ukraine</p>
+          </div>
+          <a class="blue__hover" href="#!"> Visit project </a>
+        </div>
+      </div>
+
+      <div class="jobs-slider__slide">
+        <div class="slide-img">
+          <img src="./img/mainArticle/jobsSlide-1.jpg" alt="" />
+        </div>
+        <div class="slide-content">
+          <div class="slide-content__info">
+            <h5>Onshore wind project Syvash</h5>
+            <p>Syvash, Ukraine</p>
+          </div>
+          <a class="blue__hover" href="#!"> Visit project </a>
+        </div>
+      </div>
+
+      <div class="jobs-slider__slide">
+        <div class="slide-img">
+          <img src="./img/mainArticle/jobsSlide-2.jpg" alt="" />
+        </div>
+        <div class="slide-content">
+          <div class="slide-content__info">
+            <h5>Onshore wind project Zophiah</h5>
+            <p>Ukraine</p>
+          </div>
+          <a class="blue__hover" href="#!"> Visit project </a>
+        </div>
+      </div>
+    </div>
+
+    <a class="light-blue__hover" href="#!">Load more</a>
+  </div>
+</section>
 
     </main>
 

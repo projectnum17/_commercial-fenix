@@ -1,0 +1,60 @@
+#new-logo {
+  display: none;
+}
+#new-burger {
+  display: none;
+}
+
+.header-white {
+  ul {
+    li {
+      a {
+        color: #fff !important;
+      }
+    }
+  }
+}
+
+.header-white__new {
+  ul {
+    li {
+      a {
+        color: #224479 !important;
+      }
+    }
+  }
+}
+
+.header-btn__white {
+  a {
+    background-color: #dee3eb !important;
+    color: #224479 !important;
+  }
+}
+
+.header-btn__white-new {
+  a {
+    background-color: #224479 !important;
+    color: #fff !important;
+  }
+}
+
+.header-white {
+  button {
+    background: #dee3eb !important;
+
+    p {
+      color: #224479;
+    }
+  }
+}
+
+.header-white__new {
+  button {
+    background: #224479 !important;
+
+    p {
+      color: #fff;
+    }
+  }
+}
