@@ -1,1 +1,1 @@
-![preview img](/src/img/social/openGraph.png)
+💨![preview img](/src/img/social/openGraph.png)
