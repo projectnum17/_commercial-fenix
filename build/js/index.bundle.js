@@ -85,6 +85,43 @@ if (document.getElementById("page1Identifier")) {
     loop: false,
     slidesPerView: 2,
     spaceBetween: 30,
+    speed: 1000,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  })
+}
+
+
+/***/ }),
+
+/***/ 689:
+/***/ (function() {
+
+if (document.getElementById("page4Identifier")) {
+  const newsIntroSwiper = new Swiper(".news-item__intro", {
+    loop: true,
+    speed: 2000,
+    slidesPerView: 1,
+    spaceBetween: 10,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  })
+
+  const newsOtherSwiper = new Swiper(".news-other-container", {
+    loop: false,
+    speed: 1000,
+    slidesPerView: 2,
+    spaceBetween: 30,
+
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -233,6 +270,9 @@ var __webpack_exports__ = {};
 /* harmony import */ var _modules_videoBlock__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_modules_videoBlock__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _modules_servicesAccordion__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(135);
 /* harmony import */ var _modules_servicesAccordion__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_modules_servicesAccordion__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _modules_swiperNews__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(689);
+/* harmony import */ var _modules_swiperNews__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_modules_swiperNews__WEBPACK_IMPORTED_MODULE_5__);
+
 
 
 
